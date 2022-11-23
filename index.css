@@ -1,0 +1,266 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Nunito Sans', sans-serif;
+	box-sizing: border-box;
+}
+
+/*NAVBAR*/
+
+.menu-bar {
+	background-color: #e87a00;
+
+}
+
+.nav-link {
+	font-size: 16px;
+	margin: 3px;
+	color: #f8dbbe!important;
+	font-weight: 500;
+
+}
+
+.navbar-nav {
+	text-align: right;
+}
+
+.menu-bar .navbar-toggler {
+	padding-right: 20px;
+	outline: none!important;
+	border: none!important;
+}
+
+.nav-link:hover {
+	color: #023859!important;
+}
+
+.navbar-brand img:hover {
+	opacity: 50%;
+}
+
+.navbar-brand img {
+	width: 50px;
+	height: 50px;
+}
+
+/*END OF NAVBAR*/
+
+/*INTRODUCTION*/
+
+#intro {
+	background-color: #f8dbbe;
+	height: 750px;
+}
+
+#firstintro {
+	color: #023859;
+}
+
+#secondintro {
+	color: #045174;
+	font-weight: 600;
+	font-size: 90px;
+	height: 110px;
+}
+
+#thirdintro {
+	color: #097DB2;
+	font-weight: 500;
+	font-size: 50px;
+}
+
+#fourthintro {
+	color: #023859;
+}
+
+@media screen and (max-width: 767px) {
+  #intro {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #divdiv {
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #firstintro {
+  	padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #secondintro {
+    font-size: 50px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #thirdintro {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #fourthintro {
+    font-size: 15px;
+  }
+}
+
+/*END OF INTRODUCTION*/
+
+/*ABOUT ME START*/
+
+#aboutmecontainer {
+	display: inline-block;
+	background-color: #045174;
+	height: 800px;
+}
+
+#aboutmetitle {
+	color: #e87a00;
+	font-weight: 500;
+	font-size: 25px;
+	padding-bottom: 0.5rem;
+}
+
+#fpa {
+	color: #f8dbbe;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	text-align: justify;
+    font-size: 20px;
+}
+
+#spa {
+	color: #f8dbbe;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	text-align: justify;
+    font-size: 20px;
+}
+
+#tpa {
+	color: #f8dbbe;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	text-align: justify;
+    font-size: 20px;
+}
+
+#textnimg {
+	padding-bottom: 0.5rem;
+	padding-top: 0.5rem;
+	margin-bottom: 2rem;
+	margin-top: 5rem;
+}
+
+@media screen and (max-width: 991px) {
+  #aboutmecontainer {
+    padding-right: 1rem!important;
+    padding-left: 1rem!important;
+    padding-bottom: 1rem!important;
+	height: 580px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #aboutmecontainer {
+    padding-right: 1rem!important;
+    padding-left: 1rem!important;
+    padding-bottom: 1rem!important;
+	height: 920px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #textnimg {
+    padding-right: 0rem;
+    padding-left: 0rem;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #textnimg {
+    padding-right: 0rem;
+    padding-left: 0rem;
+    margin-top: 0rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #textonly {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #fpa {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #spa {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #tpa {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #fpa {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #spa {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #tpa {
+    font-size: 14px;
+  }
+}
+
+/*ABOUT ME END*/
+
+/*EXPERIENCE START*/
+
+#expcontainer {
+	background-color: #f8dbbe;
+	height: 600px;
+}
+
+#tablecontainer {
+	background-color: #045174!important;
+    font-size: 20px!important;
+}
+
+#v-pills-home-tab {
+    font-size: 20px!important;
+}
+
+#v-pills-profile-tab {
+    font-size: 20px!important;
+}
+#v-pills-messages-tab {
+    font-size: 20px!important;
+}
+#v-pills-settings-tab {
+    font-size: 20px!important;
+}
+
+/*EXPERIENCE END*/
