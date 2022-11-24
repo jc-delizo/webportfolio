@@ -120,6 +120,10 @@
 	height: 800px;
 }
 
+#aboutmespace {
+	background-color: #045174;
+}
+
 #aboutmetitle {
 	color: #e87a00;
 	font-weight: 500;
@@ -156,6 +160,7 @@
 	padding-top: 0.5rem;
 	margin-bottom: 2rem;
 	margin-top: 5rem;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @media screen and (max-width: 991px) {
@@ -163,7 +168,13 @@
     padding-right: 1rem!important;
     padding-left: 1rem!important;
     padding-bottom: 1rem!important;
-	height: 580px;
+		height: 650px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #aboutmespace {
+		height: 100px;
   }
 }
 
@@ -181,6 +192,18 @@
     padding-right: 0rem;
     padding-left: 0rem;
     margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #aboutmespace {
+		height: 80px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #aboutmecontainer {
+		height: 1000px;
   }
 }
 
@@ -241,13 +264,29 @@
 
 #expcontainer {
 	background-color: #f8dbbe;
-	height: 600px;
+	height: 700px;
+}
+
+#expspace {
+  padding-top: 200px;
+}
+
+#exptitle {
+	background-color: #045174!important;
+	color: #e87a00;
+	font-weight: 500;
+	font-size: 25px;
+	padding-top: 0.5rem;
+	padding-bottom: 0.8rem;
 }
 
 #tablecontainer {
 	background-color: #045174!important;
   font-size: 20px!important;
-
+  width: 100vw;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #v-pills-home-tab {
@@ -263,4 +302,683 @@
     font-size: 20px!important;
 }
 
+#v-pills-tabContent ul {
+	margin-left: 5rem;
+}
+
+@media screen and (max-width: 767px) {
+  #expcontainer {
+  	height: 700px!important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #expcontainer {
+  	height: 1000px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #expspace {
+  	padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #tablecontainer {
+    margin: 0!important;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.25rem;
+    font-size: 13px!important;
+    height: 410px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #tabcontainer {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #v-pills-home-tab {
+  	font-size: 13px!important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #v-pills-profile-tab {
+  	font-size: 13px!important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #v-pills-messages-tab {
+  	font-size: 13px!important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #v-pills-settings-tab {
+  	font-size: 13px!important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #taskcontainer {
+  	padding-left: 0!important;
+  	padding-right: 0!important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #v-pills-tabContent ul {
+	margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #v-pills-tabContent {
+  	padding-left: 12px!important;
+  	padding-right: 0!important;
+  }
+}
+
 /*EXPERIENCE END*/
+
+
+/*PROJECTS START*/
+
+#projcontainer {
+	height: 1800px;
+	background-color: #045174!important;
+}
+
+#projspace {
+  padding-top: 200px;
+}
+
+#projbox {
+	background-color: #045174!important;
+  width: 100vw;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#projtitle {
+	background-color: #045174!important;
+	color: #e87a00;
+	font-weight: 500;
+	font-size: 25px;
+	padding-top: 0.5rem;
+	padding-bottom: 0.8rem;
+}
+
+#frow {}
+
+#fpp {
+	position: relative;
+}
+
+#fppc {
+	margin-right: 3rem;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#fpi {}
+
+#srow {}
+
+#spp {
+	position: relative;
+}
+
+#sppc {
+	margin-right: 3rem;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);	
+}
+
+#spi {}
+
+#trow {}
+
+#tpp {}
+
+#tppc {
+	margin-right: 3rem;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);	
+}
+@media screen and (max-width: 1440px) {
+	#tpi img {
+		height: 380px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+  #projcontainer {
+  	height: 1400px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #projtitle {
+  	padding-left: 10px!important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #projbox {
+  	height: 1000px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #frow {
+  	padding-left: 0px!important;
+  	padding-right: 0px!important;
+  	margin-top: 40px!important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #fpp {
+  	padding-left: 12px!important;
+  	padding-right: 12px!important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #fppc {
+  	padding-left: 0!important;
+  	padding-right: 0!important;
+  	margin-right: 0!important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #fpi {
+  	padding-right: 5px!important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #srow {
+  	padding-left: 0px!important;
+  	padding-right: 0px!important;
+  	margin-top: 70px!important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #spp {
+  	padding-left: 12px!important;
+  	padding-right: 12px!important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #sppc {
+  	padding-left: 0!important;
+  	padding-right: 5px!important;
+  	margin-right: 0!important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #spi {
+  	padding-right: 5px!important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #trow {
+  	padding-left: 0px!important;
+  	padding-right: 0px!important;
+  	margin-top: 70px!important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #tpp {
+  	padding-left: 12px!important;
+  	padding-right: 12px!important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #tppc {
+  	padding-left: 0!important;
+  	padding-right: 0!important;
+  	margin-right: 0!important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #tpi {
+  	padding-right: 5px!important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #tpi img {
+  	padding-right: 5px!important;
+  	height: 200px;
+  }
+}
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+  #projcontainer {
+  	height: 1900px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #projtitle {
+  	padding-left: 10px!important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #projbox {
+  	height: 1550px;
+  	margin-right: 0px!important;
+  	margin-left: 0px!important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #frow {
+  	padding-left: 0px!important;
+  	padding-right: 0px!important;
+  	margin-top: 5px!important;
+  	height: 380px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #fpp {
+  	padding-left: 12px!important;
+  	padding-right: 12px!important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #fppc {
+  	padding-left: 0!important;
+  	padding-right: 0!important;
+  	margin-right: 0!important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #fpi {
+  	padding-right: 5px!important;
+  	padding-left: 5px!important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #srow {
+  	padding-left: 0px!important;
+  	padding-right: 0px!important;
+  	margin-top: 40px!important;
+  	height: 390px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #spp {
+  	padding-left: 12px!important;
+  	padding-right: 12px!important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #sppc {
+  	padding-left: 0!important;
+  	padding-right: 0!important;
+  	margin-right: 0!important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #spi {
+  	padding-right: 5px!important;
+  	padding-left: 5px!important;
+  	margin-top: 40px!important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #trow {
+  	padding-left: 0px!important;
+  	padding-right: 0px!important;
+  	margin-top: 40px!important;
+  	height: 450px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #tpp {
+  	padding-left: 12px!important;
+  	padding-right: 12px!important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #tppc {
+  	padding-left: 0!important;
+  	padding-right: 0!important;
+  	margin-right: 0!important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #tpi {
+  	padding-right: 5px!important;
+  	padding-left: 5px!important;
+  	margin-top: 40px!important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #tpi img {
+  	width: 310px;
+  	padding-right: 0px!important;
+  }
+}
+
+/*PROJECTS END*/
+
+/*TOOLS START*/
+
+#toolcontainer {
+	background-color: #f8dbbe;
+	height: 700px;
+}
+
+#chieftitle {
+	background-color: #f8dbbe!important;
+	color: #e87a00;
+	font-weight: 700;
+	font-size: 25px;
+	padding-top: 100px;
+	padding-bottom: 0rem;
+}
+
+#supptitle {
+	background-color: #f8dbbe!important;
+	color: #e87a00;
+	font-weight: 700;
+	font-size: 25px;
+	padding-top: 0em;
+	padding-bottom: 0rem;
+}
+
+@media screen and (max-width: 767px) {
+  #chieftitle {
+  	padding-top: 80px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #toolcontainer {
+  	height: 1100px;
+  }
+}
+
+/*TOOLS END*/
+
+/*CONTACT START*/
+
+#wncontainer {
+	background-color: #045174;
+	height: 700px;
+}
+
+#wnspace {
+	padding-top: 200px;
+}
+
+#wnbox {
+	background-color: #045174;
+	margin-left: 400px;
+	margin-right: 400px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#wn {
+	background-color: #045174!important;
+	color: #e87a00;
+	font-weight: 700;
+	font-size: 25px;
+	padding-top: 1rem;
+	padding-bottom: 0rem;
+}
+
+#wnhead {
+	background-color: #045174!important;
+	color: #f8dbbe;
+	font-weight: 700;
+	font-size: 60px;
+	padding-top: 0rem;
+	padding-bottom: 0rem;
+}
+
+#wnp {
+	background-color: #045174!important;
+	color: #e87a00;
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+	padding-left: 4rem;
+	padding-right: 4rem;
+}
+
+#wnbox a {
+	text-decoration: none;
+	color: #f8dbbe;
+}
+
+@media screen and (max-width: 900px) {
+	#wncontainer {
+		height: 600px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+  #wnbox {
+		margin-left: 90px;
+		margin-right: 90px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+	#wncontainer {
+		height: 600px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	#wnspace {
+		padding-top: 150px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+  #wnbox {
+		margin-left: 20px;
+		margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #wn {
+  	font-size: 20px;
+  	font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #wnhead {
+	font-weight: 700;
+	font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #wnp {
+	padding-top: 0.5rem;
+	padding-bottom: 1rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+  }
+}
+
+
+/*CONTACT END*/
+
+/*FOOTER START*/
+
+#footercontainer {
+	background-color: #045174;
+	padding-top: 3px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#fto {
+	color: #097DB2;
+	text-align: center;
+}
+
+#ftt {
+	color: #097DB2;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+/*FOOTER END*/
+
+/*SOCIAL MEDIA LINKS START*/
+
+#github {
+	height: 50px;
+	width: 50px;
+	position: fixed;
+	bottom: 215px;
+	right: 10px;
+	object-fit: cover;
+}
+
+#github img {
+  width: 100%;
+  height: 100%;
+}
+
+#linkedin {
+	height: 50px;
+	width: 50px;
+	position: fixed;
+	bottom: 170px;
+	right: 10px;
+	object-fit: cover;
+}
+
+#linkedin img {
+  width: 100%;
+  height: 100%;
+}
+
+#facebook {
+	height: 50px;
+	width: 50px;
+	position: fixed;
+	bottom: 125px;
+	right: 10px;
+	object-fit: cover;
+}
+
+#facebook img {
+  width: 100%;
+  height: 100%;
+}
+
+#insta {
+	height: 50px;
+	width: 50px;
+	position: fixed;
+	bottom: 80px;
+	right: 10px;
+	object-fit: cover;
+}
+
+#insta img {
+  width: 100%;
+  height: 100%;
+}
+
+#insta img:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 900px) {
+  #github {
+  	display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #linkedin {
+  	display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #facebook {
+  	display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #insta {
+  	display: none;
+  }
+}
+
+/*SOCIAL MEDIA LINKS END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
